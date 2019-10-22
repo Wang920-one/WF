@@ -1,16 +1,20 @@
-﻿生成启动时间为 2019/10/22/周二 21:00:01。
-     1>项目“F:\study file\软件工程\个人项目\WF\WF\WF.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2019/10/22/周二 21:51:48。
+     1>项目“E:\git\WF\WF\WF.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\应用\vs2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt wf1.cpp
          wf1.cpp
-     1>f:\study file\软件工程\个人项目\wf\wf\wf1.cpp(27): warning C4101: “ret”: 未引用的局部变量
-     1>f:\study file\软件工程\个人项目\wf\wf\wf1.cpp(49): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>e:\git\wf\wf\wf1.cpp(32): warning C4101: “ret”: 未引用的局部变量
+     1>e:\git\wf\wf\wf1.cpp(88): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>e:\git\wf\wf\wf1.cpp(124): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>e:\git\wf\wf\wf1.cpp(127): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
          c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
        Link:
-         D:\应用\vs2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\study file\软件工程\个人项目\WF\Debug\WF.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\study file\软件工程\个人项目\WF\Debug\WF.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\study file\软件工程\个人项目\WF\Debug\WF.lib" /MACHINE:X86 Debug\wf1.obj
-         WF.vcxproj -> F:\study file\软件工程\个人项目\WF\Debug\WF.exe
-     1>已完成生成项目“F:\study file\软件工程\个人项目\WF\WF\WF.vcxproj”(Build 个目标)的操作。
+         D:\应用\vs2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\git\WF\Debug\WF.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\git\WF\Debug\WF.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\git\WF\Debug\WF.lib" /MACHINE:X86 Debug\wf1.obj
+         WF.vcxproj -> E:\git\WF\Debug\WF.exe
+     1>已完成生成项目“E:\git\WF\WF\WF.vcxproj”(Build 个目标)的操作。
 
 已成功生成。
 
-已用时间 00:00:12.95
+已用时间 00:00:04.06
